@@ -1,0 +1,24 @@
+{
+  "grats": [
+    {
+      "date_created": "2017-11-01",
+      "message": "I am grateful for Westley helping me with my back-end project!"
+    },
+    {
+      "date_created": "2017-10-31",
+      "message": "I am grateful for my nutty best friend Carrie."
+    },
+    {
+      "date_created": "2017-10-30",
+      "message": "I am grateful for chihuahuas!"
+    },
+    {
+      "date_created": "2017-10-29",
+      "message": "I am grateful for coffee!"
+    },
+    {
+      "date_created": "2017-10-28",
+      "message": "I am grateful for my yoga practice."
+    }
+  ]
+}

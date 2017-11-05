@@ -1,0 +1,17 @@
+doctype html
+html
+  head
+    title lots of grats
+  body
+    //- include partials/nav.pug
+    h1 grats!
+    h2 #{globalWow}
+    h3 all the grats yesss!
+
+    ul
+      each grat in GratsData
+        li= grats.message
+
+  block content
+    button#showLogin login
+    button#showRegister register
