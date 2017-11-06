@@ -12,4 +12,6 @@ router.get('/grats', getGratitudes);
 // router.get('/categories/:id', getSelectedCat);
 // router.post('/search', searchProducts);
 
+// router.post('/grats', addGratitude);
+
 module.exports = router;

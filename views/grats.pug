@@ -1,17 +1,18 @@
-doctype html
-html
-  head
-    title lots of grats
-  body
-    //- include partials/nav.pug
-    h1 grats!
-    h2 #{globalWow}
-    h3 all the grats yesss!
+extends index.pug
+block content
+  h1 autoGrats Log
+  a(type="button" class="btn btn-link" href="/employees-add") Add autoGrat
+  .Grats-table
 
-    ul
-      each grat in GratsData
-        li= grat.message
-
-  block content
-    button#showLogin login
-    button#showRegister register
+    table(class="striped")
+      thead
+        tr
+          th Date Created
+          th autoGrat Message
+      tbody
+        each grat in GratsData
+          tr
+            td #{grat.date_created}
+            td #{grat.message}
+            td
+            //- a(type="button" class="btn btn-link" href=`/employees/${employee.id}`) View

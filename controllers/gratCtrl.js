@@ -27,3 +27,5 @@ module.exports.getGratitudes = (req, res, next) => {
       next(err);
     });
 };
+
+// module.exports.addGratitude = (req, res, next) => {};

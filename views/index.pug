@@ -1,0 +1,27 @@
+//- doctype html
+//- html
+//-   head
+//-     title Bangazon!
+//-   body
+//-     include partials/nav.pug
+//-     h1 Bangazon!
+//-     h2 #{globalWow}
+
+//-   block content
+//-     button#showLogin Login
+//-     button#showRegister Register
+
+
+doctype html
+html
+	head
+		title autoGrat
+		meta(charset="utf-8")
+		meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
+		link(rel='stylesheet', href='/public/materialize/css/materialize.min.css')
+		//- link(rel='stylesheet' href='/public/css/main.css')
+	body
+		include nav.pug
+		block content
+		script(src='/public/jquery/jquery.min.js')
+		script(src='/public/materialize/js/materialize.min.js')
