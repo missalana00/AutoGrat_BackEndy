@@ -1,7 +1,7 @@
 extends index.pug
 block content
-  h1 autoGrats Log
-  a(type="button" class="btn btn-link" href="/employees-add") Add autoGrat
+  h3 autoGrat Log
+  a(type="button" class="btn btn-link" href="/addGrat") Add autoGrat
   .Grats-table
 
     table(class="striped")
@@ -9,10 +9,14 @@ block content
         tr
           th Date Created
           th autoGrat Message
+          th Delete
       tbody
         each grat in GratsData
           tr
             td #{grat.date_created}
             td #{grat.message}
+            td
+              a(class="btn-floating btn-large waves-effect waves-light red")
+                i(class="material-icons") delete_forever
             td
             //- a(type="button" class="btn btn-link" href=`/employees/${employee.id}`) View

@@ -3,8 +3,10 @@
 const { Router } = require('express');
 const router = Router();
 
-const { showAddForm } = require('../controllers/addGratCtrl');
+const { showAddForm, addGratitude } = require('../controllers/addGratCtrl');
 
 // add gratitude (form)
 router.get('/addGrat', showAddForm);
-// router.post('/addGrat', addGratitude);
+router.post('/addGrat', addGratitude);
+
+module.exports = router;

@@ -2,9 +2,11 @@ extends index.pug
 
 block content
   div(class="row")
-    form(class="col s12")
+    form(class="col s12" action="/addGrat" method="post")
       div(class="row")
         div(class="input-field col s12")
-          textarea(id="textarea1" class="materialize-textarea")
+          textarea(id="textarea1" name="gratitude" class="materialize-textarea")
           label(for="textarea1") Textarea
+          button(type="submit" class="btn btn-link") Submit
+
 
