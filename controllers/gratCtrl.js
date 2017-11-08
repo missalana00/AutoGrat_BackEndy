@@ -28,4 +28,17 @@ module.exports.getGratitudes = (req, res, next) => {
     });
 };
 
-// module.exports.addGratitude = (req, res, next) => {};
+/**
+ * Delete a gratitude then redirect user to all computers view
+ */
+
+// function deleteGrat(req, res, next) {
+//   const { Grats } = req.app.get('models');
+//   Grats.destroy({ where: { id: req.params.id } })
+//     .then(Grats => {
+//       res.redirect('/grats');
+//     })
+//     .catch(err => {
+//       next(err);
+//     });
+// }

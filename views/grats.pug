@@ -1,22 +1,23 @@
 extends index.pug
 block content
-  h3 autoGrat Log
-  a(type="button" class="btn btn-link" href="/addGrat") Add autoGrat
-  .Grats-table
+  div(class="container")
+    h3 autoGrat Log
+    a(type="button" class="btn btn-link" href="/addGrat") Add autoGrat
+    .Grats-table
 
-    table(class="striped")
-      thead
-        tr
-          th Date Created
-          th autoGrat Message
-          th Delete
-      tbody
-        each grat in GratsData
+      table(class="striped")
+        thead
           tr
-            td #{grat.date_created}
-            td #{grat.message}
-            td
-              a(class="btn-floating btn-large waves-effect waves-light red")
-                i(class="material-icons") delete_forever
-            td
-            //- a(type="button" class="btn btn-link" href=`/employees/${employee.id}`) View
+            th Date Created
+            th autoGrat Message
+            th Delete
+        tbody
+          each grat in GratsData
+            tr
+              td #{grat.date_created}
+              td #{grat.message}
+              td
+                a(class="btn-floating btn-large waves-effect waves-light red")
+                  i(class="material-icons" id=`${grat.id}`) delete_forever
+              td
+              //- a(type="button" class="btn btn-link" href=`/employees/${employee.id}`) View

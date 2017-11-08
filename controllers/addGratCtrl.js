@@ -12,7 +12,8 @@ module.exports.showAddForm = (req, res, next) => {
  */
 
 module.exports.addGratitude = (req, res, next) => {
-  let gratsObj = { date_created: new Date(), message: req.body.gratitude };
+  var moment = require('moment');
+  let gratsObj = { date_created: moment().format('dddd, MMMM Do YYYY'), message: req.body.gratitude };
   const { Grats } = req.app.get('models');
 
   Grats.create(gratsObj)
