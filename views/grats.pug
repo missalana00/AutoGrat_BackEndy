@@ -8,16 +8,16 @@ block content
       table(class="striped")
         thead
           tr
-            th Date Created
-            th autoGrat Message
-            th Delete
+            th DATE CREATED
+            th autoGrat MESSAGE
+            th DELETE
         tbody
           each grat in GratsData
             tr
               td #{grat.date_created}
               td #{grat.message}
               td
-                a(class="btn-floating btn-large waves-effect waves-light red")
+                a(class="btn-floating btn-large waves-effect waves-light red" href=`/delete/${grat.id}`)
                   i(class="material-icons" id=`${grat.id}`) delete_forever
               td
               //- a(type="button" class="btn btn-link" href=`/employees/${employee.id}`) View
