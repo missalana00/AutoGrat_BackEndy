@@ -7,7 +7,7 @@ module.exports.getGratitudes = (req, res, next) => {
 
   // change limit later
   Grats.findAll({
-    limit: 10,
+    limit: 50,
     order: [['date_created', 'DESC']],
     raw: true
   })
