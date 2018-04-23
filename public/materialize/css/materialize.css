@@ -6836,6 +6836,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   stroke-linecap: round;
   /*shape-rendering: crispEdges;*/ }
 
+
 body {
   background: #fafafa; }
 
@@ -6851,13 +6852,15 @@ nav ul a {
   font-size: 1.2em; }
 
 h3 {
-  font-family: 'Eczar', serif;
+  /* font-family: 'Eczar', serif; */
   font-weight: 400;
   text-align: center;
   padding-top: 0.5em; }
 
+
 td {
-  font-family: 'Work Sans', sans-serif;
+  /* font-family:'NicolasCochinW01-Regula_710442'; */
+  /* font-family: 'Work Sans', sans-serif; */
   font-weight: 400;
   font-size: 17px; }
 
@@ -6872,3 +6875,21 @@ div .row {
   padding-right: 15em; }
 
 /*# sourceMappingURL=materialize.css.map */
+
+/* @import url('https://fast.fonts.net/lt/1.css?apiType=css&c=3acdcf10-0331-4cd3-8cce-730b6916b5bb&fontids=710439,710442');
+@font-face {
+  font-family: 'NicolasCochinW01-Italic_710439';
+  src: url('Fonts/710439/c1a5b258-a0b5-4e02-a8e4-e37853e35448.eot?#iefix');
+  src: url('Fonts/710439/c1a5b258-a0b5-4e02-a8e4-e37853e35448.eot?#iefix') format('eot'),
+    url('Fonts/710439/058ed6f1-b997-47d6-a4bf-b0f2c3785305.woff2') format('woff2'),
+    url('Fonts/710439/c2c4facf-96f5-4b6c-8445-c79bf931c905.woff') format('woff'),
+    url('Fonts/710439/9d7a83a0-32d8-44e7-a8ba-15e319e9f252.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'NicolasCochinW01-Regula_710442';
+  src: url('Fonts/710442/bd284ebd-d247-45eb-9ffa-80728c829f35.eot?#iefix');
+  src: url('Fonts/710442/bd284ebd-d247-45eb-9ffa-80728c829f35.eot?#iefix') format('eot'),
+    url('Fonts/710442/a9580ba6-c9e6-4cb7-96a8-5baf8f16b803.woff2') format('woff2'),
+    url('Fonts/710442/324a9524-aa3e-4d09-8b17-a965d8e27632.woff') format('woff'),
+    url('Fonts/710442/732f08ed-560c-4b91-9d2d-78ad7f99a6dd.ttf') format('truetype');
+} */

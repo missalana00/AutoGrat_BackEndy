@@ -1,3 +1,46 @@
+@import url('https://fast.fonts.net/lt/1.css?apiType=css&c=3acdcf10-0331-4cd3-8cce-730b6916b5bb&fontids=710439,710442');
 
+td {
+  font-family: 'NicolasCochinW01-Regula_710442';
+  font-weight: 400;
+  font-size: 21px;
+}
 
+h3 {
+  font-family: 'NicolasCochinW01-Italic_710439';
+  font-weight: 400;
+  text-align: center;
+  padding-top: 0.5em;
+}
+
+.dateFont {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.specStyle {
+  font-family: 'NicolasCochinW01-Italic_710439';
+  font-weight: 400;
+  font-size: 42px;
+  text-align: center;
+  padding-top: 0.5em;
+}
+
+.styled {
+  font-family: 'NicolasCochinW01-Regula_710442';
+  font-size: 24px;
+}
+
+.padding {
+  padding-top: 20px;
+}
+
+.formatGratScience {
+  height: 700px;
+  padding-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 /*# sourceMappingURL=main.css.map */

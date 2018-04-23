@@ -14,7 +14,7 @@ block content
         tbody
           each grat in GratsData
             tr
-              td #{grat.date_created}
+              td(class="dateFont") #{grat.date_created}
               td #{grat.message}
               td
                 a(class="btn-floating btn-large waves-effect waves-light red" href=`/delete/${grat.id}`)

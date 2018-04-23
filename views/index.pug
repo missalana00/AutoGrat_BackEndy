@@ -18,13 +18,16 @@ html
 		title autoGrat
 		meta(charset="utf-8")
 		meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
-		link(rel='stylesheet' href='/public/css/main.css')
+		link(rel='stylesheet', href='/public/autoGratFontPkg/demo.css')
+		//- link(rel='stylesheet', href='.public/autoGratFontPkg/demo-async.css')
 		link(href="https://fonts.googleapis.com/css?family=Eczar:400,800|Work+Sans:300,400,500" rel="stylesheet")
 		link(rel='stylesheet', href='/public/materialize/css/materialize.css')
 		link(rel='stylesheet', href='https://fonts.googleapis.com/icon?family=Material+Icons')
+		link(rel='stylesheet' href='/public/css/main.css')
 	body
 		include nav.pug
 		block content
 		script(src='/public/jquery/jquery.min.js')
 		script(src='/public/materialize/js/materialize.min.js')
+
 		script(src='/public/notification.js')

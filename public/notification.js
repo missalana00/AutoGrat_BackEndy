@@ -211,6 +211,8 @@ window.onload = () => {
     }
   }
 
-  setInterval(showRandomGratNotification, 12000);
-  setInterval(showReminderCreateGrat, 5000);
+  // setInterval(showRandomGratNotification, 110000);
+  // displays every 75000
+  // setInterval(showReminderCreateGrat, 100000);
+  // displays every 60000
 };

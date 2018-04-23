@@ -1,5 +1,7 @@
 extends index.pug
 block content
-  div(class="container")
-    h3 Remember, you are grateful for . . .
-      p  #{singleGrat.message}
+  .container
+    h3(class="specStyle") Remember, you are grateful for . . .
+      p(class="styled")  #{singleGrat.message}
+        div
+         img(src="/public/img/gratIcon.png" alt="Image Title" class="padding")
